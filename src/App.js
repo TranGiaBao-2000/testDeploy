@@ -9,7 +9,7 @@ import Booking from "./Page/Booking";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Header />
         <Switch>
           <Route path="/" exact={true}>
@@ -28,7 +28,7 @@ function App() {
             <Redirect to="/" />
           </Route>
         </Switch>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
